@@ -47,6 +47,12 @@ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
 }
 .flexItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-align: justify;
     border: solid 1px black;
     border-radius: 5px;
     margin: 10px;
@@ -69,4 +75,6 @@ button{
     outline: oldlace;
     padding: 20px;
     cursor: pointer;
+    border-radius: 15px;
+
 }
