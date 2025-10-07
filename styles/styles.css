@@ -23,6 +23,7 @@ nav{
     grid-area: nav;
     background-color: #e0e0e0;
     padding: 20px;
+    top: 10px;
 
 }
 nav ul{
@@ -41,11 +42,25 @@ main{
     padding: 20px;
 background-color: white;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 .sectionProduct{
-    display: flex;
+    
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
 }
+.sectionBrinquedos{
+    gap: 20px;
+    text-align: center;
+}
+
+.sectionOn{
+    padding: 30px;
+    margin-top: 30px;
+}
+
 .flexItem{
     display: flex;
     flex-direction: column;
@@ -76,5 +91,22 @@ button{
     padding: 20px;
     cursor: pointer;
     border-radius: 15px;
+
+}
+.formContact{
+    display: flex;
+}
+.formContact textarea{
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+
+}
+.footer{
+grid-area: footer;
+background-color: aqua;
+color: white;
+text-align: center;
+font-weight: bold;
 
 }
